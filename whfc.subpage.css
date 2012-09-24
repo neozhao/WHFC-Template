@@ -283,15 +283,15 @@ div.requestAdoptionInfo p {
 }
 
 div.requestAdoptionInfo a:link {
-	color: #fff;
+    color: #fff;
 }
 
 div.requestAdoptionInfo a:visited {
-	color: #fff;
+    color: #fff;
 }
 
 div.requestAdoptionInfo a:hover {
-	color: #fff;
+    color: #fff;
 }
 
 /*** User profile pages ***/
@@ -751,6 +751,61 @@ table.attendeesInformation tbody tr td span {
     margin: 0 10px 0 0;
 }
 
+/*** Giving catalog confirmation ***/
+.bodysubpage .ja-content-main div.cart-confirm {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.bodysubpage .ja-content-main div.cart-confirm ul.items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bodysubpage .ja-content-main div.cart-confirm ul.items li.header {
+    font-weight: bold;
+}
+
+.bodysubpage .ja-content-main div.cart-confirm ul.items li {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border-bottom: 1px dotted #578cb7;
+}
+
+.bodysubpage .ja-content-main div.cart-confirm ul.items li div.name {
+    float: left;
+    width: 65%;
+    font-weight: bold;
+}
+
+.bodysubpage .ja-content-main div.cart-confirm ul.items li div.name span.level {
+    font-weight: normal;
+    margin: 0 0 0 5px;
+}
+
+.bodysubpage .ja-content-main div.cart-confirm ul.items li div.count {
+    float: left;
+    width: 70px;
+    text-align: right;
+}
+
+.bodysubpage .ja-content-main div.cart-confirm ul.items li div.amount {
+    float: right;
+    text-align: right;
+}
+
+.bodysubpage .ja-content-main div.cart-confirm div.checkout {
+    text-align: right;
+    margin: 5px 0;
+}
+
+.bodysubpage .ja-content-main div.cart-confirm div.checkout span.total {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 0 0 5px;
+}
+
 /*** General layout ***/
 /* Forms layout */
 #userForm table tr td {
@@ -777,7 +832,7 @@ table.resources {
 
 table.resources th {
     background-color: #578cb7;
-	border-right: 1px solid #578cb7;
+    border-right: 1px solid #578cb7;
     color: #fff;
     text-align: left;
     padding: 0.25em 0.5em;
@@ -791,12 +846,12 @@ table.resources td {
 
 table.resources td.subsection {
     background-color: #cde3ef;
-	border-right: 1px solid #cde3ef;
+    border-right: 1px solid #cde3ef;
     color: #578cb7;
     font-weight: bold;
 }
 table.resources td.alt {
-	background-color: #ECF5F9;
+    background-color: #ECF5F9;
 }
 
 table.inpage {
@@ -812,17 +867,17 @@ table.inpage td {
 }
 
 p.callout {
-	font-size: 135%; 
-	color:#f1ac28;
-	text-transform: uppercase; 
-	font-weight: bold;
+    font-size: 135%; 
+    color:#f1ac28;
+    text-transform: uppercase; 
+    font-weight: bold;
 }
 
 /* Sponsor a Child */
 div.sponsorChild {
     width: 189px;
     background: url("/images/background/sponsor-now-bg.png") repeat-x 0px 0px;
-	text-align:center;
+    text-align:center;
 }
 
 div.sponsorChild p {
