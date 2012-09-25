@@ -548,12 +548,12 @@ table.attendeesInformation tbody tr td span {
     top: 0;
     right: 0;
     width: 280px;
-    background: none repeat scroll 0 0 #F2DEAE;
+    background: none repeat scroll 0 0 #f1ac28;
     z-index: 999;
 }
 
 .bodysubpage .ja-content-main div.givingCatalogHeader div.cart div.caption {
-    border: 1px solid #C3D6F9;
+    border: 1px solid #eff6fa;
     padding: 3px;
     cursor: pointer;
 }
@@ -565,7 +565,7 @@ table.attendeesInformation tbody tr td span {
 .bodysubpage .ja-content-main div.givingCatalogHeader div.cart div.caption span.text {
     font-size: 16px;
     font-weight: bold;
-    color: #26467A;
+    color: #578cb7;
     padding: 0;
 }
 
@@ -575,8 +575,8 @@ table.attendeesInformation tbody tr td span {
 
 .bodysubpage .ja-content-main div.givingCatalogHeader div.cart div.details {
     display: none;
-    background: none repeat scroll 0 0 #F7EACB;
-    border: 1px solid #C3D6F9;
+    background: none repeat scroll 0 0 #f9dda8;
+    border: 1px solid #eff6fa;
     border-top: none;
     padding: 3px;
 }
@@ -596,7 +596,7 @@ table.attendeesInformation tbody tr td span {
 .bodysubpage .ja-content-main div.givingCatalogHeader div.cart div.details ul.items li {
     padding: 0 10px;
     overflow: hidden;
-    border-bottom: 1px solid #C3D6F9;
+    border-bottom: 1px solid #eff6fa;
 }
 
 .bodysubpage .ja-content-main div.givingCatalogHeader div.cart div.details ul.items li div.count {
@@ -616,7 +616,7 @@ table.attendeesInformation tbody tr td span {
     position: relative;
     float: left;
     width: 150px;
-    color: #26467A;
+    color: #578cb7;
     font-weight: bold;
 }
 
