@@ -853,7 +853,8 @@ table.attendeesInformation tbody tr td span {
     vertical-align: top;
 }
 
-#userForm .rsform-submit-button {
+#userForm .rsform-submit-button,
+#userForm .rsform-reset-button {
     background: #1478C4;
     border: none;
     color: #fff;
@@ -865,7 +866,8 @@ table.attendeesInformation tbody tr td span {
     cursor: pointer;
 }
 
-#userForm .rsform-submit-button:hover {
+#userForm .rsform-submit-button:hover,
+#userForm .rsform-reset-button:hover {
     background: #222;
 }
 
