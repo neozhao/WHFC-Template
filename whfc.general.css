@@ -163,54 +163,47 @@ form.search .button {
 
 /* Footer stay connect module */
 .bodyhomepage #ja-botsl .ja-box-right,
-.bodysubpage #ja-botsl .ja-box-right {
+.bodysubpage #ja-botsl  .ja-box-right {
     max-width: 200px;
+    padding: 0 0 0 10px;
 }
 
-.bodyhomepage span.acymailing_introtext,
-.bodysubpage span.acymailing_introtext {
+.bodyhomepage #ja-botsl .ja-box-right .ja-moduletable span.intro_text,
+.bodysubpage #ja-botsl  .ja-box-right .ja-moduletable span.intro_text {
     margin-bottom: 5px;
     text-transform: none;
     font-family: Arial,Helvetica,sans-serif;
     font-weight: bold;
     color: #6F6F6F;
     font-size: 12px;
+    display: block;
 }
 
-.bodyhomepage #ja-botsl .ja-moduletable p.acymailing_introtext2,
-.bodysubpage #ja-botsl .ja-moduletable p.acymailing_introtext2 {
+.bodyhomepage #ja-botsl .ja-box-right .ja-moduletable span.mod_text,
+.bodysubpage #ja-botsl  .ja-box-right .ja-moduletable span.mod_text {
     margin-top: 3px;
 }
 
-.bodyhomepage span.acyfield_email,
-.bodysubpage span.acyfield_email {
-    display: block;
-    margin: 3px 0 5px 0;
-    float: left;
+.bodyhomepage #ja-botsl .ja-box-right .ja-moduletable p,
+.bodysubpage #ja-botsl  .ja-box-right .ja-moduletable p {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0 0 0;
 }
 
-.bodyhomepage span.acyfield_email input.inputbox,
-.bodysubpage span.acyfield_email input.inputbox {
+.bodyhomepage #ja-botsl .ja-box-right .ja-moduletable input.inputbox,
+.bodysubpage #ja-botsl  .ja-box-right .ja-moduletable input.inputbox {
+    float: left;
     width: 150px;
     height: 18px;
 }
 
-.bodyhomepage div.acymailing_form input.subbutton,
-.bodysubpage div.acymailing_form input.subbutton {
-    float: right;
-    margin-top: 1px;
-}
-
-.bodyhomepage div.acymailing_form p.acysubbuttons,
-.bodysubpage div.acymailing_form p.acysubbuttons {
-    text-align: left;
-}
-
-.bodyhomepage div.acymailing_form p.acysubbuttons a,
-.bodysubpage div.acymailing_form p.acysubbuttons a {
-    color: #999999;
-    text-decoration: underline;
-    cursor: pointer;
+.bodyhomepage #ja-botsl .ja-box-right .ja-moduletable #login-form input.button,
+.bodysubpage #ja-botsl  .ja-box-right .ja-moduletable #login-form input.button {
+    float: left;
+    background: none;
+    border: none;
+    padding: 0;
 }
 
 /* Footer connect with us module */
