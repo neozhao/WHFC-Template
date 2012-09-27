@@ -345,6 +345,46 @@ div.profile-editsubpage fieldset dt {
     min-width: 180px;
 }
 
+/* User function */
+.userfunction #ja-mainbody {
+    width: auto;
+    max-width: none;
+    float: none;
+    border-right: none;
+}
+
+.userfunction .ja-content-main {
+    width: 750px;
+    float: left;
+}
+
+/* General layout */
+.userfunction fieldset.formFieldset ol.formContainer li {
+    padding: 5px 5px 5px 0;
+}
+
+.userfunction table tr td {
+    padding: 5px 5px 5px 0;
+}
+
+/* Hide the title */
+.userfunction .ja-content-main .item-pagesubpage h2 {
+    display: none;
+}
+
+/* User function menu */
+.userfunction .userMenu {
+    margin: 0 0 10px 0;
+}
+
+.userfunction .userMenu span {
+    padding: 0 10px;
+}
+
+.userfunction table.dataTable span {
+    padding: 0 3px;
+}
+
 /*** Admin pages ***/
 
 /* Admin login, registration, forgot user name, forgot password*/
@@ -548,12 +588,12 @@ table.attendeesInformation tbody tr td span {
     top: 0;
     right: 0;
     width: 280px;
-    background: none repeat scroll 0 0 #f1ac28;
+    background: none repeat scroll 0 0 #F2DEAE;
     z-index: 999;
 }
 
 .bodysubpage .ja-content-main div.givingCatalogHeader div.cart div.caption {
-    border: 1px solid #eff6fa;
+    border: 1px solid #C3D6F9;
     padding: 3px;
     cursor: pointer;
 }
@@ -565,7 +605,7 @@ table.attendeesInformation tbody tr td span {
 .bodysubpage .ja-content-main div.givingCatalogHeader div.cart div.caption span.text {
     font-size: 16px;
     font-weight: bold;
-    color: #000000;
+    color: #26467A;
     padding: 0;
 }
 
@@ -575,8 +615,8 @@ table.attendeesInformation tbody tr td span {
 
 .bodysubpage .ja-content-main div.givingCatalogHeader div.cart div.details {
     display: none;
-    background: none repeat scroll 0 0 #f9dda8;
-    border: 1px solid #eff6fa;
+    background: none repeat scroll 0 0 #F7EACB;
+    border: 1px solid #C3D6F9;
     border-top: none;
     padding: 3px;
 }
@@ -596,7 +636,7 @@ table.attendeesInformation tbody tr td span {
 .bodysubpage .ja-content-main div.givingCatalogHeader div.cart div.details ul.items li {
     padding: 0 10px;
     overflow: hidden;
-    border-bottom: 1px solid #eff6fa;
+    border-bottom: 1px solid #C3D6F9;
 }
 
 .bodysubpage .ja-content-main div.givingCatalogHeader div.cart div.details ul.items li div.count {
@@ -616,7 +656,7 @@ table.attendeesInformation tbody tr td span {
     position: relative;
     float: left;
     width: 150px;
-    color: #578cb7;
+    color: #26467A;
     font-weight: bold;
 }
 
@@ -807,9 +847,26 @@ table.attendeesInformation tbody tr td span {
 }
 
 /*** General layout ***/
+
 /* Forms layout */
 #userForm table tr td {
     vertical-align: top;
+}
+
+#userForm .rsform-submit-button {
+    background: #1478C4;
+    border: none;
+    color: #fff;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    margin: 10px 5px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#userForm .rsform-submit-button:hover {
+    background: #222;
 }
 
 #jsErrorMsg {
