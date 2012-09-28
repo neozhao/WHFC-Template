@@ -373,10 +373,25 @@ div.profile-editsubpage fieldset dt {
 
 .userfunction .ja-content-main table {
     margin: 0 0 15px 0;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.userfunction .ja-content-main table thead {
+    font-weight: bold;
+}
+
+.userfunction .ja-content-main table tr {
+    border-bottom: 1px dotted #578cb7;
+}
+
+.userfunction .ja-content-main table tr.last {
+    border-bottom: none;
 }
 
 .userfunction .ja-content-main table tr td {
-    padding: 5px 25px 5px 0;
+    padding: 5px 5px 5px 0;
+    width: auto;
 }
 
 /* User function menu */
@@ -390,6 +405,15 @@ div.profile-editsubpage fieldset dt {
 
 .userfunction table.dataTable span {
     padding: 0 3px;
+}
+
+/* User event registration */
+.userfunction .ja-content-main table.userEventPurchasedItem tr td {
+    width: 33%;
+}
+
+.userfunction .ja-content-main table.userEventAttendees tr td {
+    width: 20%;
 }
 
 /*** Admin pages ***/
