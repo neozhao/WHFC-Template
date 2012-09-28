@@ -358,18 +358,25 @@ div.profile-editsubpage fieldset dt {
     float: left;
 }
 
-/* General layout */
-.userfunction fieldset.formFieldset ol.formContainer li {
-    padding: 5px 5px 5px 0;
-}
-
-.userfunction table tr td {
-    padding: 5px 5px 5px 0;
-}
-
 /* Hide the title */
-.userfunction .ja-content-main .item-pagesubpage h2 {
+.userfunction .ja-content-main h2,
+.userfunction .ja-content-main legend {
     display: none;
+}
+
+.userfunction .ja-content-main h4 {
+    color: #233F85;
+    font-size: 14px;
+    text-transform: none;
+    margin: 5px 0;
+}
+
+.userfunction .ja-content-main table {
+    margin: 0 0 15px 0;
+}
+
+.userfunction .ja-content-main table tr td {
+    padding: 5px 25px 5px 0;
 }
 
 /* User function menu */
