@@ -116,6 +116,10 @@
     resize: none;
 }
 
+.rsform fieldset.formFieldset ol.formContainer li.RecurringBillingContainer {
+    overflow: visible;
+}
+
 /* Registration form */
 .rsform fieldset.formFieldset ol.formContainer li ol.leftList {
     float:left;
