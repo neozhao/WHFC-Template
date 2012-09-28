@@ -37,6 +37,8 @@
 .rsform fieldset.formFieldset ol.formContainer li {
     padding-left: 0;
     padding-right: 0;
+    position: relative;
+    overflow: hidden;
 }
 
 .rsform fieldset.formFieldset ol.formContainer li ol.hlist li {
@@ -65,6 +67,15 @@
 
 .rsform fieldset.formFieldset ol.formContainer li label {
     padding-right: 15px;
+}
+
+/* Payment form */
+.rsform fieldset.formFieldset ol.payment li div.formCaption {
+    width: 25%;
+}
+
+.rsform fieldset.formFieldset ol.payment li div.formBody {
+    width: 70%;
 }
 
 /* Sponsorship signup form */
