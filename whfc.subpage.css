@@ -416,6 +416,13 @@ div.profile-editsubpage fieldset dt {
     width: 20%;
 }
 
+/* User Sponsorship */
+.userfunction .ja-content-main fieldset.userSponsoredChild dd {
+    width: 550px;
+    float: left;
+    margin: 0;
+}
+
 /*** Admin pages ***/
 
 /* Admin login, registration, forgot user name, forgot password*/
