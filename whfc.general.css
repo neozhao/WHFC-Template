@@ -4,6 +4,10 @@ h1, h2, h3 {
     font-weight: normal;
 }
 
+body#bd {
+    background: none repeat scroll 0 0 #FFFFFF !important;
+}
+
 .bodyhomepage a,
 .bodysubpage a {
     color: #578CB7;
@@ -274,4 +278,35 @@ div.form_qlogginpopup .form-submit input:hover {
 .body-overlayed {
     overflow-x: hidden;
     overflow-y: auto;
+}
+
+/* Print view */
+.DTTT_Print .main {
+    margin: 0 !important;
+    width: auto !important;
+    max-width: auto !important;
+    overflow: visible !important;
+}
+
+.DTTT_Print #ja-container {
+    z-index: 0 !important;
+}
+
+.DTTT_Print .ja-content-main {
+    width: 100% !important;
+}
+
+.DTTT_Print table.dataTable {
+    float: none !important;
+    margin: 0 !important;
+}
+
+.DTTT_Print table.dataTable tr.odd,
+.DTTT_Print table.dataTable tr.even {
+    background-color: #FFFFFF !important;
+    border-bottom: 1px dotted #000000 !important;
+}
+
+.DTTT_Print table.dataTable tr td.sorting_1 {
+    background-color: #FFFFFF !important;
 }
