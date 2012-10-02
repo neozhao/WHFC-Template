@@ -65,6 +65,14 @@
     color: #555;
 }
 
+.bodysubpage .ja-content-main table.dataTable thead tr th {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+
+.bodysubpage .ja-content-main table.dataTable thead tr th.group {
+    text-align: center;
+}
+
 .bodysubpage .ja-content-main div.DTTT_container {
     margin: 0;
 }
