@@ -288,9 +288,10 @@ div.form_qlogginpopup .form-submit input:hover {
 /* Print view */
 .DTTT_Print .main {
     margin: 0 !important;
-    width: auto !important;
-    max-width: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
     overflow: visible !important;
+    font-size: 90% !important;
 }
 
 .DTTT_Print #ja-container {
@@ -299,6 +300,10 @@ div.form_qlogginpopup .form-submit input:hover {
 
 .DTTT_Print .ja-content-main {
     width: 100% !important;
+}
+
+.DTTT_Print .hidden {
+    display: table-cell !important;
 }
 
 .DTTT_Print table.dataTable {
