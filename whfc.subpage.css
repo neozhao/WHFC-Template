@@ -513,6 +513,10 @@ div.profile-editsubpage fieldset dt {
     margin: 5px 0 10px 0;
 }
 
+.adminfunction .ja-content-main div.reportSelection .form-validate input {
+    width: auto;
+}
+
 .adminfunction .ja-content-main div.reportDetails {
     margin: 5px 0 10px 0;
     font-weight: bold;
