@@ -14,13 +14,19 @@ body#bd {
 }
 
 .bodyhomepage input,
-.bodyhomepage select,
 .bodyhomepage textarea,
 .bodyhomepage .inputbox,
 .bodysubpage input,
-.bodysubpage select,
 .bodysubpage textarea,
 .bodysubpage .inputbox {
+    color: #555;
+    font-style: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 0 5px 0 0;
+}
+
+.bodyhomepage select,
+.bodysubpage select {
     color: #555;
     font-style: normal;
     margin: 0 5px 0 0;
