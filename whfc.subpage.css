@@ -490,6 +490,10 @@ div.profile-editsubpage fieldset dt {
     padding: 5px 5px 5px 0;
 }
 
+.adminfunction .ja-content-main h4 {
+    margin: 15px 0 0 0;
+}
+
 .adminfunction .ja-content-main table.admin-table {
     margin: 0 0 15px 0;
     table-layout: fixed;
