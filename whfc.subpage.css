@@ -670,7 +670,7 @@ table.attendeesInformation tbody tr td span {
     top: 0;
     right: 0;
     width: 280px;
-    background: none repeat scroll 0 0 #F2DEAE;
+    background: none repeat scroll 0 0 #f6cb78;
     z-index: 999;
 }
 
@@ -697,7 +697,7 @@ table.attendeesInformation tbody tr td span {
 
 .bodysubpage .ja-content-main div.givingCatalogHeader div.cart div.details {
     display: none;
-    background: none repeat scroll 0 0 #F7EACB;
+    background: none repeat scroll 0 0 #fbeac7;
     border: 1px solid #C3D6F9;
     border-top: none;
     padding: 3px;
