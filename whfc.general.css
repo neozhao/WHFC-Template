@@ -72,6 +72,17 @@ form.search .button {
     display: none;
 }
 
+/* Error message */
+.bodyhomepage #system-message dd.message ul li,
+.bodyhomepage #system-message dd.error ul li,
+.bodyhomepage #system-message dd.notice ul li,
+.bodysubpage #system-message dd.message ul li,
+.bodysubpage #system-message dd.error ul li,
+.bodysubpage #system-message dd.notice ul li {
+    margin: 0 0 0 40px;
+    text-indent: 0;
+}
+
 /*** Header ***/
 #header-mainnav {
     background: url("/images/background/header-bg.png") repeat-x scroll 0 0 #C6C6C6;
