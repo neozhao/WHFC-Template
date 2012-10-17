@@ -4,6 +4,10 @@ h1, h2, h3 {
     font-weight: normal;
 }
 
+h4 {
+    font-size: 14px;
+}
+
 body#bd {
     background: none repeat scroll 0 0 #FFFFFF !important;
 }
