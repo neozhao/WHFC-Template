@@ -1026,8 +1026,8 @@ table.resources {
 
 table.resources th {
     background-color: #578cb7;
-    border-right: 1px solid #578cb7;
-    color: #fff;
+    border-right: 1px solid #cde3ef;
+    color: #cde3ef;
     text-align: left;
     padding: 0.25em 0.5em;
 }
@@ -1040,7 +1040,7 @@ table.resources td {
 
 table.resources td.subsection {
     background-color: #cde3ef;
-    border-right: 1px solid #cde3ef;
+    border-right: 1px solid #578cb7;
     color: #578cb7;
     font-weight: bold;
 }
