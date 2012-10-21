@@ -98,7 +98,7 @@
 
 /* Home page donate now link */
 .bodyhomepage #ja-topsl-2 .ja-box-right .custom p {
-    padding-top: 8px;
+    padding: 0;
     text-align: right;
 }
 
@@ -170,8 +170,13 @@
     padding: 5px 15px 5px 0;
 }
 
+.bodyhomepage .sidebar .ja-slidenews-inner table tbody tr td.image {
+    padding: 8px 0 5px 0;
+}
+
 .bodyhomepage .sidebar .ja-slidenews-item img {
     border: none;
+    padding: 0px 15px 0 0;
 }
 
 /* Home page right column sponsor a child now link */
