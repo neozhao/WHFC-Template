@@ -1088,3 +1088,24 @@ div.sponsorChild a {
 div.sponsorChild img {
     padding: 5px 0;
 }
+/* Subsidize An Adoption */
+div.subsidies {
+    width: 189px;
+    background: url("/images/background/subsidies-bg.png") repeat-x 0px 0px;
+    text-align:center;
+}
+
+div.subsidies p {
+    color: #B1CCD9;
+    padding-left: 2px;
+    font-size: 14px;
+}
+div.subsidies a {
+    color: #fff;
+    padding-left: 2px;
+    font-size: 14px;
+}
+
+div.ssubsidies img {
+    padding: 5px 0;
+}
