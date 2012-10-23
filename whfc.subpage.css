@@ -1109,3 +1109,24 @@ div.subsidies a {
 div.ssubsidies img {
     padding: 5px 0;
 }
+/* Giving Catalog Steps */
+div.givingcatalogsteps {
+    width: 189px;
+    background-color: #EC9F00;
+    margin-top: 5px;
+}
+
+div.givingcatalogsteps .header {
+    color: #FFF;
+	font-size: 14px;
+	font-weight:bold;
+}
+
+div.givingcatalogsteps p {
+    font-size: 12px;
+    color: #fff;
+}
+div.givingcatalogsteps p.note {
+	padding-top:6px;
+	border-top:1px solid #fff;
+}
