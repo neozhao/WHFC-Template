@@ -55,6 +55,44 @@
     
 }
 
+/* Search result */
+.searchResult .ja-content-main .pagination .form-limit {
+    display: none;
+}
+
+.searchResult .ja-content-main .pagination .counter {
+    display: none;
+}
+
+.searchResult #searchForm label {
+    font-weight: bold;
+}
+
+.searchResult #searchForm .phrases-box {
+    margin: 5px 0 0 0;
+}
+
+.searchResult #searchForm .ordering-box {
+    margin: 10px 0 5px 0;
+}
+
+.searchResult #searchForm .only {
+    padding: 10px 0;
+}
+
+.searchResult #searchForm .button {
+    background: none repeat scroll 0 0 #1478C4;
+    border: medium none;
+    color: #FFFFFF;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+}
+
+.searchResult #searchForm .button:hover {
+    background: none repeat scroll 0 0 #222222;
+}
+
 /* Data table */
 .bodysubpage .ja-content-main table.dataTable {
     float: left;
@@ -918,6 +956,11 @@ table.attendeesInformation tbody tr td span {
     float: left;
     width: 85px;
     font-weight: bold;
+}
+
+.bodysubpage .ja-content-main div.givingCatalog div.body div.items ul li span.amount input {
+    width: 50px;
+    margin: 0 0 0 5px;
 }
 
 .bodysubpage .ja-content-main div.givingCatalog div.body div.items ul li span.addcart {
