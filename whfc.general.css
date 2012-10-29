@@ -30,6 +30,7 @@ body#bd {
     color: #555;
     font-style: normal;
     margin: 0 5px 0 0;
+    max-width: 500px;
 }
 
 .bodyhomepage input[readonly='readonly'],
