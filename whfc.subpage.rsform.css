@@ -205,6 +205,7 @@
     float: right;
     width: 340px;
     margin-right: 10px;
+    padding: 5px 0 0 0;
 }
 
 .eventRegistration .ja-content-main ol.formContainer li div.optionsSelected table tr td {
