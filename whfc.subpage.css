@@ -159,6 +159,11 @@
     margin: 0 0 10px 0;
 }
 
+.bodysubpage .ja-content-top ul.categories-module ul {
+    margin: 0;
+    padding: 5px 0 0 15px;
+}
+
 .bodysubpage .ja-content-top ul.categories-module li {
     list-style-type: none;
     padding: 5px 0 0 0;
