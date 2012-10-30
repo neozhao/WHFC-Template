@@ -1160,12 +1160,12 @@ div.ssubsidies img {
 div.givingcatalogsteps {
     width: 189px;
     background-color: #EC9F00;
+    margin-top: 5px;
 }
 
-div.givingcatalogsteps .header {
+div.givingcatalogsteps h4 {
     color: #FFF;
-    font-size: 14px;
-	font-weight:bold;
+    font-size: 12px;
 }
 
 div.givingcatalogsteps p {
