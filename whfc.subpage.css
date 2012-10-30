@@ -966,14 +966,14 @@ table.attendeesInformation tbody tr td span {
 }
 
 .bodysubpage .ja-content-main div.givingCatalog div.body div.items ul li span.amount input {
-    width: 50px;
+    width: 60px;
+    height: 12px;
     margin: 0 0 0 5px;
 }
 
 .bodysubpage .ja-content-main div.givingCatalog div.body div.items ul li span.addcart {
     position: relative;
     float: right;
-    margin: 0 10px 0 0;
 }
 
 /*** Giving catalog confirmation ***/
@@ -1160,12 +1160,11 @@ div.ssubsidies img {
 div.givingcatalogsteps {
     width: 189px;
     background-color: #EC9F00;
-    margin-top: 5px;
 }
 
 div.givingcatalogsteps h4 {
     color: #FFF;
-    font-size: 12px;
+	font-size: 12px;
 }
 
 div.givingcatalogsteps p {
