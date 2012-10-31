@@ -1129,6 +1129,7 @@ div.sponsorChild p {
     font-size: 14px;
     margin: 5px 0;
 }
+
 div.sponsorChild a {
     color: #fff;
     font-size: 14px;
@@ -1146,6 +1147,7 @@ div.subsidies p {
     padding-left: 2px;
     font-size: 14px;
 }
+
 div.subsidies a {
     color: #fff;
     padding-left: 2px;
@@ -1155,6 +1157,7 @@ div.subsidies a {
 div.ssubsidies img {
     padding: 5px 0;
 }
+
 /* Giving Catalog Steps */
 div.givingcatalogsteps {
     width: 189px;
@@ -1163,14 +1166,34 @@ div.givingcatalogsteps {
 
 div.givingcatalogsteps h4 {
     color: #FFF;
-	font-size: 12px;
+    font-size: 12px;
 }
 
 div.givingcatalogsteps p {
     font-size: 12px;
     color: #fff;
 }
+
 div.givingcatalogsteps p.note {
-	padding-top:6px;
-	border-top:1px solid #fff;
+    padding-top:6px;
+    border-top:1px solid #fff;
+}
+
+/* Expectant Parent Quote */
+div.expectantParentQuote {
+    width: 189px;
+    background: url("/images/background/sponsor-now-bg.png") repeat-x 0px 0px;
+    text-align:center;
+}
+
+div.expectantParentQuote p {
+    color: #B1CCD9;
+    padding-left: 2px;
+    font-size: 14px;
+    margin: 0;
+}
+
+div.expectantParentQuote a {
+    color: #fff;
+    font-size: 14px;
 }
