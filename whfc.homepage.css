@@ -135,6 +135,10 @@
     padding-top: 15px;    
 }
 
+.bodyhomepage #ja-content-main div.items-row {
+    padding-top: 0;
+}
+
 .bodyhomepage #ja-content-main h3 {
     font-size: 30px;
     color: #555555;
