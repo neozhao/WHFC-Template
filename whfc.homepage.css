@@ -115,6 +115,10 @@
     border-bottom: 4px solid #F3E0BD;
 }
 
+.bodyhomepage #ja-topsl .ja-box .custom {
+    max-width: 215px;
+}
+
 .bodyhomepage #ja-topsl .ja-box .custom h3 {
     font-size: 22px;
     color: #EC9E00;
@@ -124,10 +128,11 @@
 
 .bodyhomepage #ja-topsl .ja-box .custom p {
     padding-bottom: 5px;
+    font-size: 12px;
 }
 
 .bodyhomepage #ja-topsl .ja-box-left, .bodyhomepage #ja-topsl .ja-box-center {
-    padding-right: 38px;
+    padding-right: 35px;
 }
 
 /* Home page main content */
