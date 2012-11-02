@@ -116,7 +116,7 @@
 }
 
 .bodyhomepage #ja-topsl .ja-box .custom {
-    max-width: 215px;
+    max-width: 220px;
 }
 
 .bodyhomepage #ja-topsl .ja-box .custom h3 {
@@ -132,7 +132,7 @@
 }
 
 .bodyhomepage #ja-topsl .ja-box-left, .bodyhomepage #ja-topsl .ja-box-center {
-    padding-right: 35px;
+    margin-right: 29px;
 }
 
 /* Home page main content */
