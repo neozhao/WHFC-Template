@@ -154,7 +154,8 @@
 }
 
 .events div.archiveEvents {
-    margin-top: 40px;
+    float: left;
+    width: 100%;
 }
 
 .events div.eventsDesc span {
